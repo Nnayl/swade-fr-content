@@ -1,0 +1,47 @@
+{
+    "name": "swade-fr-content",
+    "title": "SWADE Contenu FR",
+    "description": "Contenu FR pour SWADE",
+    "authors": [
+      {
+        "name": "Nnayl",
+        "flags": {}
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "10"
+    },
+    "packs": [
+      {
+        "name": "swade-fr-atouts",
+        "label": "SWADE FR Atouts",
+        "system": "swade",
+        "module": "swade-fr-content",
+        "path": "./packs/swade-atouts.db",
+        "type": "Item"
+      },
+      {
+        "name": "swade-fr-competences",
+        "label": "SWADE FR Compétences",
+        "system": "swade",
+        "module": "swade-fr-content",
+        "path": "./packs/swade-competences.db",
+        "type": "Item"
+      },
+      {
+        "name": "swade-fr-handicap",
+        "label": "SWADE FR Handicaps",
+        "system": "swade",
+        "module": "swade-fr-content",
+        "path": "./packs/swade-handicaps.db",
+        "type": "Item"
+      }
+    ],
+    "systems": ["swade"],
+    "url": "https://github.com/Nnayl/swade-fr-content",
+    "manifest": "https://raw.githubusercontent.com/Nnayl/swade-fr-content/master/module.json",
+    "download": "https://github.com/Nnayl/swade-fr-content/archive/refs/tags/1.0.0.zip"
+  }
